@@ -133,8 +133,14 @@ table {
 
 body {
   font-family: "Chakra Petch", sans-serif;
+  margin: 1%;
   font-size: 1.6rem;
+  color: rgb(204, 255, 255);
   background-image: linear-gradient(rgb(0, 0, 0), rgb(34, 3, 3));
+}
+
+.name {
+  font-size: 2.5rem;
 }
 
 nav {
@@ -142,14 +148,32 @@ nav {
   justify-content: space-between;
 }
 
+.navbtn {
+  background-color: rgb(4, 40, 49);
+  border: hidden;
+  border-radius: 1rem;
+  padding: 1%;
+}
+
 #top {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../Saved Pictures/pexels-irina-iriser-1366957.jpg");
+  background-size: 100%;
+  padding: 13%;
+  margin: 2%;
+}
+
+.title {
+  font-family: "Geo", sans-serif;
+  font-size: 8rem;
+  text-align: center;
 }
 
 footer {
   text-align: center;
-  background-color: rgb(4, 49, 47);
+  background-color: rgb(4, 40, 49);
   padding: 1.5%;
 }
 
@@ -157,6 +181,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-style: italic;
 }
 
 .project img {
@@ -166,20 +191,32 @@ footer {
   object-fit: cover;
 }
 
+h3 {
+  text-align: center;
+  transition: 2s;
+  color: rgb(35, 148, 182);
+}
+
+h3:hover {
+  transition: 1s;
+  color: rgb(204, 255, 255);
+}
+
 footer button {
   background-color: transparent;
   border: hidden;
   font-family: "Chakra Petch", sans-serif;
   font-size: 1.5rem;
   transition: 1.5s;
-  color: rgb(204, 255, 255);
+  color: rgb(204, 239, 255);
   border-radius: 1rem;
   padding: 1rem;
 }
 
 footer button:hover {
   transition: 1.5s;
-  background-color: rgb(28, 145, 139);
+  background-color: rgb(28, 118, 145);
   border-radius: 1rem;
+  color: white;
   padding: 1rem;
 }
