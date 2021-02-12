@@ -246,7 +246,7 @@ h3:hover {
 
 footer a {
   background-color: transparent;
-  border: hidden;
+  border: hidden 1px;
   font-family: "Chakra Petch", sans-serif;
   font-size: 1.5rem;
   color: rgb(204, 239, 255);
