@@ -136,11 +136,12 @@ body {
   margin: 1%;
   font-size: 1.6rem;
   color: rgb(204, 255, 255);
-  background-image: linear-gradient(rgb(0, 0, 0), rgb(34, 3, 3));
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(26, 0, 0));
 }
 
 .name {
   font-size: 2.5rem;
+  margin-left: 2%;
 }
 
 nav {
@@ -156,8 +157,8 @@ nav {
 }
 
 .navbtn {
- background-color: rgb(4, 40, 49);
-  border: hidden;
+  background-color: transparent;
+  border: solid 0.1rem rgb(222, 255, 255);
   border-radius: 0.5rem;
   display: flex;
   justify-content: space-around;
@@ -167,6 +168,25 @@ nav {
   width: 600px;
 }
 
+.navbtn a {
+  color: rgb(35, 148, 182);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #fff;
+}
+
+button {
+  color: rgb(255, 213, 213);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: solid rgb(233, 255, 255);
+  cursor: pointer;
+}
 #top {
   display: flex;
   flex-direction: column;
@@ -183,14 +203,14 @@ nav {
   font-family: "Geo", sans-serif;
   font-size: 8rem;
   text-align: center;
-  color:rgb(233, 255, 255);
+  color: rgb(233, 255, 255);
   margin-left: 10px;
 }
 
 footer {
   text-align: center;
   background-color: rgb(4, 40, 49);
-  padding: 1.5%;
+  padding: 2%;
 }
 
 .container {
@@ -202,7 +222,7 @@ footer {
 }
 
 .project {
-    
+  margin: 0 8px;
 }
 
 .project img {
@@ -215,32 +235,31 @@ footer {
 h3 {
   text-align: center;
   transition: 2s;
-  color: rgb(35, 148, 182);
+  color: rgb(191, 240, 255);
+  margin: 3% 0 3% 0;
 }
 
 h3:hover {
   transition: 1s;
-  color: rgb(204, 255, 255);
+  color: rgb(255, 213, 213);
 }
 
-footer button {
+footer a {
   background-color: transparent;
   border: hidden;
   font-family: "Chakra Petch", sans-serif;
   font-size: 1.5rem;
-  transition: 1.5s;
   color: rgb(204, 239, 255);
   border-radius: 1rem;
   padding: 1rem;
+  text-decoration: none;
 }
 
 footer button:hover {
   transition: 1.5s;
-  background-color: rgb(28, 118, 145);
+  background-color: rgb(7, 154, 173);
   border-radius: 1rem;
-  color: white;
+  color: #efffff;
   padding: 1rem;
   cursor: pointer;
-
-  }
 }
