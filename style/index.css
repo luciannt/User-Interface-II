@@ -205,9 +205,10 @@ button:hover {
   background-image: url("../Saved Pictures/pexels-irina-iriser-1366957.jpg");
   background-size: 100%;
   padding: 13%;
-  margin: 2%;
+  margin: 3%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 70%;
 }
 
 .title {
@@ -287,5 +288,34 @@ button a {
 @media (max-width: 800px) {
   nav {
     position: relative;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  #top button {
+    width: 28%;
+    font-size: 1.3rem;
+  }
+
+  .title {
+    font-size: 5.2rem;
+  }
+
+  .container {
+    flex-flow: row wrap;
+    width: 48%;
+    align-content: space-around;
+    font-size: 1.3rem;
+    align-items: baseline;
+    }
+
+  footer button {
+    font-size: 1.3rem;
+  }
   }
 }
