@@ -184,9 +184,20 @@ button {
   font-family: "Chakra Petch", sans-serif;
   font-size: 1.6rem;
   background-color: transparent;
-  border: solid rgb(233, 255, 255);
+  border: solid 2px rgb(196, 255, 255);
   cursor: pointer;
+  border-radius: 7px;
+  width: 20%;
+  align-self: center;
+  transition: 0.5s;
 }
+
+button:hover {
+  color: rgb(242, 255, 255);
+  transition: 0.5s;
+  border-color: rgb(255, 213, 213);
+}
+
 #top {
   display: flex;
   flex-direction: column;
@@ -211,6 +222,7 @@ footer {
   text-align: center;
   background-color: rgb(4, 40, 49);
   padding: 2%;
+  margin-top: 20px;
 }
 
 .container {
@@ -263,4 +275,17 @@ footer button:hover {
   color: #efffff;
   padding: 1rem;
   cursor: pointer;
+}
+
+button a {
+  color: rgb(46, 184, 226);
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+  nav {
+    position: relative;
+  }
 }
