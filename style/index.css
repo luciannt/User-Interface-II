@@ -158,7 +158,7 @@ nav {
 
 .navbtn {
   background-color: transparent;
-  border: solid 0.1rem rgb(222, 255, 255);
+  border: solid 0.1rem rgb(229, 255, 255);
   border-radius: 0.5rem;
   display: flex;
   justify-content: space-around;
@@ -257,30 +257,25 @@ h3:hover {
   color: rgb(255, 213, 213);
 }
 
-footer button {
+footer a {
   background-color: transparent;
   border: hidden 1px;
   font-family: "Chakra Petch", sans-serif;
   font-size: 1.5rem;
-  color: rgb(204, 239, 255);
+  color: rgb(112, 213, 231);
   border-radius: 1rem;
   padding: 1rem;
   text-decoration: none;
   transition: 1.5s;
 }
 
-footer button:hover {
+footer a:hover {
   transition: 1.5s;
   background-color: rgb(7, 154, 173);
   border-radius: 1rem;
   color: #efffff;
   padding: 1rem;
   cursor: pointer;
-}
-
-button a {
-  color: rgb(46, 184, 226);
-  text-decoration: none;
 }
 
 /* Media Queries */
@@ -291,6 +286,24 @@ button a {
     flex-flow: column nowrap;
     align-items: center;
     font-size: 1.3rem;
+  }
+
+  .navbtn {
+    border: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    margin-top: 3%;
+    margin-left: 7%;
+  }
+
+  .navbtn a {
+    border: solid 1px #efffff;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    width: 55%;
+    text-align: center;
+    margin: 2px;
   }
 
   .name {
@@ -306,16 +319,51 @@ button a {
     font-size: 5.2rem;
   }
 
-  .container {
-    flex-flow: row wrap;
-    width: 48%;
-    align-content: space-around;
-    font-size: 1.3rem;
-    align-items: baseline;
-    }
-
-  footer button {
+  .project {
+    width: 44%;
     font-size: 1.3rem;
   }
+
+  footer a {
+    font-size: 1.3rem;
+  }
+
+  #top {
+    margin-top: 22%;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbtn {
+    margin-top: 8%;
+    margin-left: 11%;
+    font-size: 1.1rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+    margin-top: 3%;
+  }
+
+  #top {
+    margin-top: 30%;
+  }
+
+  .title {
+    font-size: 3.4rem;
+  }
+
+  #top button {
+    font-size: 1.1rem;
+    width: 37%;
+  }
+
+  .project {
+    align-items: center;
+    font-size: 1.1rem;
+  }
+
+  footer a {
+    font-size: 1.1rem;
   }
 }
