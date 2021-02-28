@@ -1,1 +1,266 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Start of page*/
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  margin: 1%;
+  font-size: 1.6rem;
+  color: rgb(204, 255, 255);
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(26, 0, 0));
+}
+
+.name {
+  font-size: 2.5rem;
+  margin-left: 2%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  background: transparent;
+  left: 0;
+}
+
+.navbtn {
+  background-color: transparent;
+  border: solid 0.1rem rgb(222, 255, 255);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 50px;
+  height: 50px;
+  width: 600px;
+}
+
+.navbtn a {
+  color: rgb(35, 148, 182);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #fff;
+}
+
+button {
+  color: rgb(255, 213, 213);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: solid rgb(233, 255, 255);
+  cursor: pointer;
+}
+#top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../Saved Pictures/pexels-irina-iriser-1366957.jpg");
+  background-size: 100%;
+  padding: 13%;
+  margin: 2%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title {
+  font-family: "Geo", sans-serif;
+  font-size: 8rem;
+  text-align: center;
+  color: rgb(233, 255, 255);
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(4, 40, 49);
+  padding: 2%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-style: italic;
+  align-content: space-between;
+}
+
+.project {
+  margin: 0 8px;
+}
+
+.project img {
+  max-width: 100%;
+  width: 35rem;
+  height: 25rem;
+  object-fit: cover;
+}
+
+h3 {
+  text-align: center;
+  transition: 2s;
+  color: rgb(191, 240, 255);
+  margin: 3% 0 3% 0;
+}
+
+h3:hover {
+  transition: 1s;
+  color: rgb(255, 213, 213);
+}
+
+footer button {
+  background-color: transparent;
+  border: hidden 1px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.5rem;
+  color: rgb(204, 239, 255);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: 1.5s;
+}
+
+footer button:hover {
+  transition: 1.5s;
+  background-color: rgb(7, 154, 173);
+  border-radius: 1rem;
+  color: #efffff;
+  padding: 1rem;
+  cursor: pointer;
+}
